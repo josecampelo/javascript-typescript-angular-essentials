@@ -1,0 +1,24 @@
+Desafio Extra – Sistema de Pontuação de Partida
+
+Imagine que você está criando um sistema para registrar o desempenho 
+de um jogador após uma partida de League of Legends. 
+Use variáveis com os tipos primitivos corretos para representar os seguintes dados:
+
+- Nome do campeão jogado (ex: "Ahri")
+- Nível do jogador (número inteiro)
+- Quantidade de abates (número)
+- Quantidade de mortes (número)
+- KDA perfeito? (true ou false)
+- MVP da partida? (valor nulo, até a análise do servidor)
+- Status do carregamento (variável declarada mas sem valor ainda)
+
+Depois, imprima tudo no console com frases completas, por exemplo:
+Ahri finalizou a partida no nível 15 com 12 abates e 3 mortes.
+KDA Perfeito? false
+MVP da Partida? null
+Status de carregamento: undefined
+
+Objetivo
+- Usar corretamente os tipos: string, number, boolean, null, undefined
+- Demonstrar domínio do console.log()
+- Escrever frases legíveis com interpolação (template strings ou concatenação)
