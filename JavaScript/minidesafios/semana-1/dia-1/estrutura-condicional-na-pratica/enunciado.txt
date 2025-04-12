@@ -1,0 +1,35 @@
+- Desafio Extra: Avaliador de Jogador - Edição Condicional
+Você vai criar um programa que avalia o desempenho de um jogador em uma partida com base nos seguintes dados:
+
+const nome = "Vayne";
+const abates = 15;
+const mortes = 3;
+const assistencias = 7;
+const tempoPartida = 32; // minutos
+const objetivosParticipados = 6; // torres, dragões, barões etc.
+const totalObjetivos = 9;
+const reportsRecebidos = 1;
+
+- Regras de avaliação:
+1. KDA: Calcule o KDA com a fórmula:
+(abates+assistencias)/mortes
+Se mortes for 0, imprima "KDA Perfeito".
+
+2. Participação em Objetivos:
+Calcule a porcentagem de participação em objetivos.
+participacao=(objetivosParticipados/totalObjetivos)\*100
+
+3. Classificação de Participação:
+Se a participação for maior ou igual a 70%, exiba "Participou ativamente dos objetivos".
+Se for entre 40% e 69%, exiba "Participação moderada nos objetivos".
+Senão, exiba "Participação baixa nos objetivos".
+
+4. Desempenho final:
+Se KDA > 5, participação em objetivos > 60% e reportsRecebidos === 0, classifique como "Desempenho excepcional".
+Senão, se KDA >= 3 e participação > 40%, classifique como "Desempenho bom".
+Senão, "Desempenho precisa melhorar".
+
+- Dicas:
+Use if / else if / else.
+Use variáveis auxiliares como kda, participacao, statusParticipacao, etc.
+Pode imprimir tudo no final com console.log().
