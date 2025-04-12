@@ -1,0 +1,26 @@
+- Caçada na Selva (Jungle Loop Challenge)
+Vamos testar tudo o que você aprendeu até agora: for, while, do...while, e condições (if/else).
+
+- Contexto:
+Você é o caçador da equipe e vai fazer sua rotação de farm e objetivos. Sua missão é limpar a selva, garantir buffs, e tentar pegar o Arauto ou Dragão se houver chance.
+
+- Regras:
+1. Você começa com:
+let monstrosRestantes = 8;
+let buffsPegos = 0;
+let tempo = 0; // minutos
+let arautoDisponivel = true;
+
+2. Use um loop while para simular a limpeza da selva.
+A cada monstro limpo, diminua monstrosRestantes e aumente tempo em 2 minutos.
+A cada 3 monstros, pegue 1 buff (aumenta buffsPegos).
+
+3. Quando acabar a selva, use um if para verificar:
+Se o tempo for menor ou igual a 14 minutos e o arautoDisponivel for true, você pode tentar o Arauto.
+
+4. Simule 3 tentativas com do...while para tentar derrotar o Arauto:
+Exiba "Tentando derrotar o Arauto..." a cada tentativa.
+Se na 3ª tentativa ainda não derrotou, exiba "Arauto escapou!".
+
+- Objetivo:
+Criar esse script que simula toda essa lógica com laços e condições.
