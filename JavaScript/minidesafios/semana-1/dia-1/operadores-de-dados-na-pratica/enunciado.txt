@@ -1,0 +1,29 @@
+- Avaliação de Jogador no Fim da Temporada
+Você vai criar um programa que avalia o desempenho de um jogador ao fim da temporada e determina se ele será promovido de elo, vai cair, ou ficar no mesmo lugar.
+
+- Informações:
+const nome = "Thresh";
+const partidasJogadas = 100;
+const partidasVencidas = 53;
+const reportsRecebidos = 2;
+const abandonos = 1;
+const honorLevel = 4;
+const eloAtual = "Prata";
+
+- O que você deve fazer:
+Calcular a taxa de vitória (winrate em %).
+Se o jogador teve mais de 5 reports OU mais de 2 abandonos, ele não pode subir de elo.
+Se a taxa de vitória for maior que 60% e o honorLevel for 4 ou mais, ele sobe de elo.
+Se a taxa de vitória for menor que 40%, ele cai de elo.
+Caso contrário, mantém o elo.
+Exibir uma mensagem final com:
+	Nome do jogador
+	Elo atual
+	Winrate
+	Status disciplinar (foi punido ou não)
+	Resultado da temporada: "Subiu de elo", "Caiu de elo" ou "Permaneceu no elo atual"
+
+- Exemplo de Saída:
+Thresh jogou 100 partidas com 53% de vitórias.
+Status disciplinar: OK
+Resultado: Permaneceu no elo atual
